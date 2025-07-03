@@ -1,6 +1,6 @@
 {
-  "name": "z3-app",
-  "version": "0.1.0",
+  "name": "z3-app-www",
+  "version": "1.0.0",
   "description": "",
   "private": true,
   "devDependencies": {

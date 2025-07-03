@@ -2,7 +2,7 @@ use askama::Template;
 use axum::{Router, response::Html, routing::get};
 use std::net::SocketAddr;
 use tower_http::{compression::CompressionLayer, services::ServeDir};
-use z3_app::templates::MainTemplate;
+use z3_app_www::templates::MainTemplate;
 
 /// Launches the Axum web server with HTML template rendering and static file serving.
 ///

@@ -1,12 +1,12 @@
 [package]
-name = "z3-app"
-version = "0.1.0"
+name = "z3-app-www"
+version = "1.0.0"
 edition = "2024"
 
 
 [dependencies]
 axum = { version = "0.8.4", features = ["macros"] }
-tokio = { version = "1.45.1", features = ["full"] }
+tokio = { version = "1.46.0", features = ["full"] }
 dotenvy = "0.15.7"
 tracing = "0.1.41"
 tracing-subscriber = "0.3.19"
