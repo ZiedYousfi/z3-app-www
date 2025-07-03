@@ -32,7 +32,7 @@ COPY --from=node-builder /app/static/htmx.min.js ./static/htmx.min.js
 COPY --from=node-builder /app/static/favicon.png ./static/favicon.png
 
 RUN apt-get update \
-  && apt-get install -y --no-install-recommends ca-certificates libpq5 \
+  && apt-get install -y --no-install-recommends ca-certificates \
   && rm -rf /var/lib/apt/lists/*
 
 USER appuser
