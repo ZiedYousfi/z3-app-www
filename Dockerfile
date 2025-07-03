@@ -25,7 +25,7 @@ WORKDIR /app
 
 RUN useradd -m appuser
 
-COPY --from=rust-builder /app/target/release/z3-app ./backend
+COPY --from=rust-builder /app/target/release/z3-app-www ./backend
 
 COPY --from=node-builder /app/static/tailwind.css ./static/tailwind.css
 COPY --from=node-builder /app/static/htmx.min.js ./static/htmx.min.js
