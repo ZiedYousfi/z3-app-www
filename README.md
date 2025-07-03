@@ -23,8 +23,8 @@ This is the official landing and promotional site for the z3 Stack template. It 
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/ZiedYousfi/z3-app.git
-   cd z3-app
+   git clone https://github.com/ZiedYousfi/z3-app-www.git
+   cd z3-app-www
    ```
 
 2. **Build and run**
